@@ -1,0 +1,251 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Environment setting
+environment			 : "production"
+
+# Theme Settings
+remote_theme			         : DeepThoughtHPC/minimal-mistakes  ## custom template, adapted from mmistakes/minimal-mistakes-jekyll #@4.13.0, @4.24.0
+minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale                   : "en-AU"
+title			               : NSWHP - Bioinformatics Forum
+title_separator          : "-"
+subtitle                 : Bring Bioinformatics and Clinics Together
+
+name  			             : "SWS"
+# email			             : robert.qiao@flinders.edu.au
+description		           : This is a community forum developed by bioinformacians for bioinformaticians work in NSWHP.
+baseurl			             : "/NSWHP-Bioinfo-GroupPage/"
+url			                 : "https://nswph-genomics.github.io"
+repository               : "NSWPH-Genomics/NSWHP-Bioinfo-GroupPage"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "assets/images/thumbnails/logo-tn.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+words_per_minute         : 90
+search                   : true
+search_full_content      : true
+search_provider          : google
+google:
+  search_engine_id       : "f40861b960f59471c"
+  instant_search         : true
+
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname 	         : nswhpgenomics
+
+# Social Sharing
+twitter:
+  username               : &twitter "robqiao"
+
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "G-B78HN18VK0"
+
+# Build settings
+markdown		 : kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Site Footer
+footer:
+  links:
+    - label	    : "Twitter"
+      icon	    : "fab fa-fw fa-twitter-square"
+      url	      : "https://twitter.com/robqiao"
+    - label     : "GitHub"
+      icon      : "fab fa-fw fa-github"
+      url	      : "https://github.com/NSWPH-Genomics"
+
+# Site Author
+author:
+  name             : "Bioinformatics Forum @ NSW"
+  avatar           : "assets/images/thumbnails/DPP4-tn.png"
+  bio              : "Enabling Precision Public Health Management through Omics"
+  location         : "Newcastle, NSW, Australia"
+  email            :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  email            :
+  links:
+    - label        : "Email"
+      icon	       : "fas fa-fw fa-envelope-square"
+      url	         : mailto:rob.qiao@health.nsw.gov.au
+    - label        : "Website"
+      icon         : "fas fa-fw fa-link"
+      url          : "nswhpbioinfo.page.link/home"
+    - label	       : "Twitter"
+      icon	       : "fab fa-fw fa-twitter-square"
+      url	         : "https://twitter.com/robqiao"
+    - label        : "GitHub"
+      icon	       : "fab fa-fw fa-github"
+      url	         : "https://github.com/NSWPH-Genomics"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _software
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+# Reading Files
+include:
+  - .htaccess
+  - _posts
+  - _pages
+  - _software
+  # - _portfolio
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 15 # amount of posts to show
+paginate_path: "/blog/page:num/"
+timezone: Australia/Sydney
