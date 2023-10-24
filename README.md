@@ -2,7 +2,7 @@
 
 | Branch | Status |
 | --- | :---: |
-| master | [![Build Status](https://travis-ci.org/DPP4ResearchGroup/DPP4-HomePage.svg?branch=master)](https://travis-ci.org/DPP4ResearchGroup/DPP4-HomePage) |
-| develop | [![Build Status](https://travis-ci.org/DPP4ResearchGroup/DPP4-HomePage.svg?branch=develop)](https://travis-ci.org/DPP4ResearchGroup/DPP4-HomePage) |
+| master | [[![pages-build-deployment](https://github.com/NSWHP-Genomics/NSWHP-Bioinfo-GroupPage/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/NSWHP-Genomics/NSWHP-Bioinfo-GroupPage/actions/workflows/pages/pages-build-deployment)|
+| develop | [![pages-build-deployment](https://github.com/NSWHP-Genomics/NSWHP-Bioinfo-GroupPage/actions/workflows/pages/pages-build-deployment/badge.svg?branch=develop)](https://github.com/NSWHP-Genomics/NSWHP-Bioinfo-GroupPage/actions/workflows/pages/pages-build-deployment) |
 
 This is the group page for NSWHP-Bioinfo group.

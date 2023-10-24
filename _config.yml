@@ -32,7 +32,7 @@ baseurl			             : "/NSWHP-Bioinfo-GroupPage/"
 url			                 : "https://nswph-genomics.github.io"
 repository               : "NSWPH-Genomics/NSWHP-Bioinfo-GroupPage"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/thumbnails/logo-tn.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "assets/images/thumbnails/nsw.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute         : 90
 search                   : true
