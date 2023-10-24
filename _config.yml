@@ -112,7 +112,7 @@ footer:
 # Site Author
 author:
   name             : "Bioinformatics Forum @ NSW"
-  avatar           : "assets/images/thumbnails/DPP4-tn.png"
+  avatar           : "assets/images/thumbnails/NSWHP_AU.png"
   bio              : "Enabling Precision Public Health Management through Omics"
   location         : "Newcastle, NSW, Australia"
   email            :
@@ -125,10 +125,10 @@ author:
   links:
     - label        : "Email"
       icon	       : "fas fa-fw fa-envelope-square"
-      url	         : mailto:rob.qiao@health.nsw.gov.au
+      url	         : mailto:nswpath-swsbioinformatics@health.nsw.gov.au
     - label        : "Website"
       icon         : "fas fa-fw fa-link"
-      url          : "nswhpbioinfo.page.link/home"
+      url          : "http://bit.ly/nswhp-genomics"
     - label	       : "Twitter"
       icon	       : "fab fa-fw fa-twitter-square"
       url	         : "https://twitter.com/robqiao"
