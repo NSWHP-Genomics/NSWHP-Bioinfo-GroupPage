@@ -1,0 +1,15 @@
+# main links
+main:
+  #-  title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Blogs"
+    url: "/year-archive/"
+  - title: "Software"
+    url: "/software-archive/"
+  #  url: /collection-archive/
+  # - title: "Publications"
+  #  url: 
+  - title: "Sitemap"
+    url: /sitemap/
+  - title: "About Us"
+    url: "/about/"

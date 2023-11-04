@@ -1,0 +1,18 @@
+# _posts or _pages authors, this is different from site author in _config.yml
+
+robqiao:
+  name        : "Robert QIAO"
+  bio         : "Computational Molecular Biologist"
+  avatar      : "/assets/images/avatar/avatar.jpg"
+  keybase     : "robqiao"
+  links:
+    - label: "Email"
+      icon:  "fas fa-fw fa-envelope-square"
+      url:   "mailto:robert.qiao@flinders.edu.au"
+    - label: "Website"
+      icon:  "fas fa-fw fa-link"
+      url:   "https://manifestoso.page.link/main"
+    - label: "Twitter"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   "https://twitter.com/robqiao"
+
