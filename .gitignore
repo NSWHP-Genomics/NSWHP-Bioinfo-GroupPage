@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+
+# Content adjustment for compile debug
+_portfolio

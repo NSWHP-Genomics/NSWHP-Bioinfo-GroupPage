@@ -111,10 +111,10 @@ footer:
 
 # Site Author
 author:
-  name             : "Bioinformatics Forum @ NSW"
+  name             : "Bioinformatics Forum @ NSWHP"
   avatar           : "assets/images/thumbnails/NSWHP_AU.png"
   bio              : "Enabling Precision Public Health Management through Omics"
-  location         : "Newcastle, NSW, Australia"
+  location         : "Newcastle NSW, Australia"
   email            :
   uri              :
   bitbucket        :
