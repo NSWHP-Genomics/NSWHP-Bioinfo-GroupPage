@@ -107,7 +107,7 @@ footer:
       url	      : "https://twitter.com/robqiao"
     - label     : "GitHub"
       icon      : "fab fa-fw fa-github"
-      url	      : "https://github.com/NSWPH-Genomics"
+      url	      : "https://github.com/NSWHP-Genomics"
 
 # Site Author
 author:
