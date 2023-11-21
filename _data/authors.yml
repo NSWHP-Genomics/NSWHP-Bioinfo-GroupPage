@@ -8,7 +8,7 @@ robqiao:
   links:
     - label: "Email"
       icon:  "fas fa-fw fa-envelope-square"
-      url:   "mailto:robert.qiao@flinders.edu.au"
+      url:   "mailto:rob.qiao@health.nsw.gov.au"
     - label: "Website"
       icon:  "fas fa-fw fa-link"
       url:   "https://manifestoso.page.link/main"
