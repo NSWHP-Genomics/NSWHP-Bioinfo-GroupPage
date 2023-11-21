@@ -224,6 +224,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  updates:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Archives
