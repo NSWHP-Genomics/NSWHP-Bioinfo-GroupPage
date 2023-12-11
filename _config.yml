@@ -31,8 +31,8 @@ description		           : This is a community forum developed by bioinformacians
 baseurl			             : "/NSWHP-Bioinfo-GroupPage/"
 url			                 : "https://nswhp-genomics.github.io"
 repository               : "NSWPH-Genomics/NSWHP-Bioinfo-GroupPage"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/thumbnails/Q320.jpg"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "assets/images/thumbnails/Q320.jpg"
+logo                     : "assets/images/thumbnails/Q320-88px.jpg"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute         : 90
 search                   : true
