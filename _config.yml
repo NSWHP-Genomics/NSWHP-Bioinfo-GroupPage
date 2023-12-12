@@ -28,7 +28,7 @@ subtitle                 : Bring Bioinformatics and Clinics Together
 name  			             : "SWS"
 email			               : nswpath-swsbioinformatics@health.nsw.gov.au
 description		           : This is a community forum developed by bioinformacians for bioinformaticians work in NSWHP.
-baseurl			             :
+baseurl			             : /NSWHP-Bioinfo-GroupPage
 url			                 : https://nswhp-genomics.github.io
 repository               : "NSWPH-Genomics/NSWHP-Bioinfo-GroupPage"
 teaser                   : /assets/images/thumbnails/Q320.jpg
