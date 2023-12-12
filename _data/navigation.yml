@@ -9,7 +9,7 @@ main:
   #  url: /collection-archive/
   # - title: "Publications"
   #  url: 
-  - title: "Sitemap"
-    url: /sitemap/
+  # - title: "Sitemap"
+  #  url: /sitemap/
   - title: "About Us"
     url: "/about/"

@@ -12,7 +12,8 @@
 environment			           : "production"
 
 # Theme Settings
-remote_theme			         : DeepThoughtHPC/minimal-mistakes  ## custom template, adapted from mmistakes/minimal-mistakes-jekyll #@4.13.0, @4.24.0
+remote_theme               : "mmistakes/minimal-mistakes@4.24.0"
+#remote_theme			         : DeepThoughtHPC/minimal-mistakes  ## custom template, adapted from mmistakes/minimal-mistakes-jekyll #@4.13.0, @4.24.0
 minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
@@ -21,19 +22,18 @@ minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "da
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale                   : "en-AU"
-title			               : NSWHP - Bioinformatics Forum
+title			               : NSWHP Bioinformatics Forum
 title_separator          : "-"
 subtitle                 : Bring Bioinformatics and Clinics Together
-
 name  			             : "SWS"
 email			               : nswpath-swsbioinformatics@health.nsw.gov.au
 description		           : This is a community forum developed by bioinformacians for bioinformaticians work in NSWHP.
-baseurl			             : "/NSWHP-Bioinfo-GroupPage/"
-url			                 : "https://nswhp-genomics.github.io"
+baseurl			             : /NSWHP-Bioinfo-GroupPage
+url			                 : https://nswhp-genomics.github.io
 repository               : "NSWPH-Genomics/NSWHP-Bioinfo-GroupPage"
-teaser                   : "assets/images/thumbnails/Q320.jpg"
-logo                     : "assets/images/thumbnails/Q320-88px.jpg"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : /assets/images/thumbnails/Q320.jpg
+logo                     : /assets/images/logo/nswhp-bio.png  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : NSWHP-Bioinfo
 words_per_minute         : 90
 search                   : true
 search_full_content      : true
@@ -112,7 +112,7 @@ footer:
 # Site Author
 author:
   name             : "Bioinformatics Forum @ NSWHP"
-  avatar           : "assets/images/thumbnails/DNA.jpg"
+  avatar           : "assets/images/logo/nswhp-bio-88.png"
   bio              : "Enabling Precision Public Health Management through Omics"
   location         : "Newcastle NSW, AU"
   email            : nswpath-swsbioinformatics@health.nsw.gov.au
@@ -244,3 +244,9 @@ permalink: /:categories/:title/
 paginate: 15 # amount of posts to show
 paginate_path: "/blog/page:num/"
 timezone: Australia/Sydney
+
+# Performance
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
