@@ -12,7 +12,7 @@
 environment			           : "production"
 
 # Theme Settings
-remote_theme               : "mmistakes/minimal-mistakes@4.24.0"
+remote_theme               : mmistakes/minimal-mistakes@4.24.0
 #remote_theme			         : DeepThoughtHPC/minimal-mistakes  ## custom template, adapted from mmistakes/minimal-mistakes-jekyll #@4.13.0, @4.24.0
 minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -28,7 +28,7 @@ subtitle                 : Bring Bioinformatics and Clinics Together
 name  			             : "SWS"
 email			               : nswpath-swsbioinformatics@health.nsw.gov.au
 description		           : This is a community forum developed by bioinformacians for bioinformaticians work in NSWHP.
-baseurl			             : /NSWHP-Bioinfo-GroupPage
+baseurl			             :
 url			                 : https://nswhp-genomics.github.io
 repository               : "NSWPH-Genomics/NSWHP-Bioinfo-GroupPage"
 teaser                   : /assets/images/thumbnails/Q320.jpg
